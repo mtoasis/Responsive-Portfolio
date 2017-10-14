@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+<head>
+	<title>
+		Responsive HW
+	</title>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="asset/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="asset/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel|Indie+Flower" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
+</head>
+<body>
+<!-- Top-navigation-menu -->
+<nav>
+	<div class="name">
+		<a class="name" target="_self" href="index.html">My name is...</a>
+	</div>
+	
+	<div class="menu">
+		<ul>
+			<li class="normal"><a class="menu" target="_self" href="index.html">About</a></li>
+			<li class="normal"><a class="menu" targer="_self" href="portfolio.html">Portfolio</a></li>
+			<li class="normal"><a class="menu" target="_self" href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- mobile button -->
+	<div class="mobilemenu"><h2 class="mobile">Menu</h2>
+		<div class="dropdown-content">
+		<ul>
+			<li class="mobile"><a class="menu" target="_self" href="index.html">About</a></li>
+			<li class="mobile"><a class="menu" targer="_self" href="portfolio.html">Portfolio</a></li>
+			<li class="mobile"><a class="menu" target="_self" href="contact.html">Contact</a></li>
+		</ul>	
+		</div>
+	</div>
+
+	
+<div class="flex-container">
+<!-- Body-main-content -->
+	<div class="main_content">
+		<h1>Portfolio</h1>
+		<img id="myImg1" class="portfolio" src="asset/image/img%20(1).jpg" alt="Steak 1">
+		<img id="myImg2" class="portfolio" src="asset/image/img%20(2).jpg" alt="Steak 2">
+		<img id="myImg3" class="portfolio" src="asset/image/img%20(3).jpg" alt="Cheese Past 1" >
+		<img id="myImg4" class="portfolio" src="asset/image/img%20(4).jpg" alt="Cheese Past 2">
+		<img id="myImg5" class="portfolio" src="asset/image/img%20(5).jpg" alt="Chili Fries 1">
+		<img id="myImg6" class="portfolio" src="asset/image/img%20(6).jpg" alt="Chili Fries 1">
+		<img id="myImg7" class="portfolio" src="asset/image/img%20(7).jpg" alt="Salmon Roll">
+		<img id="myImg8" class="portfolio" src="asset/image/img%20(8).jpg" alt="Avocado Crab Roll">
+		<img id="myImg9" class="portfolio" src="asset/image/img%20(9).jpg" alt="California Roll with Mayo and Uster Sauce">
+		<img id="myImg10" class="portfolio" src="asset/image/img%20(10).jpg" alt="Hamburger Steak with Mashed Potato">
+		<img id="myImg11" class="portfolio" src="asset/image/img%20(11).jpg" alt="Cheese Pasta 3">
+		<img id="myImg12" class="portfolio" src="asset/image/img%20(12).jpg" alt=" Curry katsu">
+		<img id="myImg13" class="portfolio" src="asset/image/img%20(13).jpg" alt="Marinara Sauced Rice with Mozzarella Cheese">
+		<img id="myImg14" class="portfolio" src="asset/image/img%20(14).jpg" alt="Pizza">
+
+	</div>
+
+</div>
+<!-- modal part -->
+<div id="myModal" class="modal">
+	<span class="close">x</span>
+	<div id="caption"></div>
+	<img class="modal-content" id="img01">
+	
+	
+</div>
+
+
+
+	<div class="connect">
+		<h1>Connect Me</h1>
+		<a target="_blank" href="https://www.facebook.com/julian.s.lee.7"><img heigh="100px" width="100px" src="asset/image/facebook.png" ></a>
+		<a target="_blank" href="https://www.instagram.com/julianlee00/"><img heigh="100px" width="100px" src="asset/image/instagram.png"></a>
+	</div>
+
+
+
+
+<!-- Footing -->
+	<div class="footing"><h3 class="footer">@Copyright 2017 @ Julian lee</h3> </div>
+
+
+<script>
+
+
+
+var modal = document.getElementById('myModal');
+
+var img = document.getElementById('myImg1');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg6');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg7');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg8');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg9');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg10');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg11');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg12');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg13');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg14');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+
+
+
+</script>
+
+
+</body>
+
+
+
+</body>
+</html>
